@@ -1,0 +1,9 @@
+{
+    "env": {
+        "MONGO_DB_USER_NM":"jith",
+        "MONGO_DB_PW": "Os5CnwhhjQprPs5l",
+        "JWT_TOKE_SCRT_PW":"thisissecrethash",
+        "PORT": "3000"
+    }
+   
+}
