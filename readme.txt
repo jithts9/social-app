@@ -1,16 +1,16 @@
 step 1
 
--- download the application and configure the enviormental variable ( nodemon.json file)
--- make sure that application is connected with mongodb atlas 
--- api are made up with node.js, express, mongodb
--- postman tool require to test the application
+-- download the application and configure the enviormental variable in nodemon.json file
+-- make sure that application is connected with mongodb atlas ( connect you own connection )
+-- api  are made up with node.js, express, mongodb
+-- postman tool is require to test the application
 
 step 2 
 
 -- to fetch users from http://jsonplaceholder.typicode.com/users and save to user db with role and password
 http://localhost:3000/auth/user ( port may be vary as per the configuratino)
 ( by default all user are admin )
--- script to update the password to encrypte
+-- script to update the password to encrypt
 http://localhost:3000/auth/updatepw/:id ( we have to do it one by one by changing ':id' value to 1 to 10 )
 
 step 3
@@ -26,7 +26,7 @@ step 4
 
 --- rest api implimentation
 -- login ( user postman tool for testing the api )
-http://localhost:3000/auth/login  ( enter the username and password in body section, select the method as get) 
+http://localhost:3000/auth/login  ( enter the username and password in body section, select the method as post) 
 copy the token from the response ( eg. username = Bret, password =Bret1 )
 
 --fecth user details

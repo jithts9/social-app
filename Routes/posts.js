@@ -11,6 +11,7 @@ const router = express.Router()
 router.get('/savepost', postController.savePost);
 router.get('/updatepost', postController.updateCommentsInPost)
 router.get('/updatePostInUser', postController.updatePostInUser)
+
 router.get('/posts',isAuth,roleAuth, postController.getPosts)
 
 module.exports = router

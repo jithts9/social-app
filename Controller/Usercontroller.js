@@ -22,7 +22,8 @@ exports.saveUsers = async function( req,res, next) {
                address: userDatas.data[i].address,
                phone: userDatas.data[i].phone,
                website: userDatas.data[i].website,
-               company: userDatas.data[i].company 
+               company: userDatas.data[i].company ,
+               imageUrl: ''
                
            })
            const savedUser = await userDtl.save()

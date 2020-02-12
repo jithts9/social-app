@@ -28,7 +28,7 @@ const UserDetail = new Schema({
     },
     imageUrl: {
         type : String,
-        required: true
+        required: false
     },
     address: { },
     phone: {
